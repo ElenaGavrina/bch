@@ -8,3 +8,7 @@ type Block struct {
 	Timestamp time.Time
 	Data      string
 }
+
+type Blockchain struct {
+	bch []*Block
+}
