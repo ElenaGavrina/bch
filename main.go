@@ -22,8 +22,7 @@ type Blockchain struct {
 }
 
 type Book struct {
-	ID          string 
-	ISBN        string 
+	ID          string  
 	Title       string 
 	Author      string 
 	PublishDate string 
